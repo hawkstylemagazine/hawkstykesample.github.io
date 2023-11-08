@@ -8,7 +8,7 @@ body {
   font-family: 'Lato';
   font-weight: 200;
   font-size: 20px;
-  color: #ffffff;
+  color: #141414;
   background-color:#141414;
 }
 p {
@@ -40,6 +40,20 @@ a img:hover,
 a img:focus {
   cursor: zoom-in;
 }
+a.logo {
+    display: block; 
+    text-align: center; 
+    text-decoration: none; 
+}
+
+/* CSS for the logo image */
+a.logo img {
+    width: 100px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+
 blockquote {
   color: #f30707;
   font-style: italic;
@@ -142,14 +156,9 @@ hr.small {
   }
 }
 .intro-header {
-  background-color: #000000;
-  background: no-repeat center center;
-  background-attachment: scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+  height: 200%;
   margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 .intro-header .site-heading {
   padding: 50px 0 50px;
@@ -158,7 +167,7 @@ hr.small {
 .intro-header .post-heading,
 .intro-header .page-heading {
   padding: 50px 0 50px;
-  color: rgb(255, 255, 255);
+
 }
 @media only screen and (min-width: 100px) {
   .intro-header .site-heading {
@@ -310,6 +319,11 @@ footer .copyright {
   text-align: center;
   margin-bottom: 0;
 }
+footer .support {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 0;
+}
 .floating-label-form-group {
   font-size: 14px;
   position: relative;
@@ -428,3 +442,9 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #0085a1;
 }
+
+
+/* ADI's REVAMP STYLING */
+
+
+

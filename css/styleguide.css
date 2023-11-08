@@ -1,0 +1,38 @@
+:root { 
+  --black: #000000;
+  --canary: #f1ff5b;
+  --white: #ffffff;
+ 
+  --font-size-l: 18px;
+  --font-size-m: 12px;
+  --font-size-s: 12px;
+  --font-size-xl: 40px;
+  --font-size-xs: 10px;
+  --font-size-xxs: 8px;
+  --font-size-xxxs: 5px;
+ 
+  --font-family-inconsolata: "Inconsolata", Helvetica;
+  --font-family-inter: "Inter", Helvetica;
+}
+.inter-normal-canary-14px {
+  color: var(--canary);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+.inter-normal-canary-11px {
+  color: var(--canary);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-normal-canary-6px {
+  color: var(--canary);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+}
